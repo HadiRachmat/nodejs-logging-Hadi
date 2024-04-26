@@ -1,11 +1,13 @@
-export class MyException extends Error {
+import winston, { createLogger } from "winston";
 
-}
+const logger = new createLogger({
+    level : "info",
+    transports : [
+        new winston.transports.File({
+            handleExceptions :true,
+            filename :"exception.log"
+        })
+    ]
+})
 
-export const callMe = (name) => {
-    if (name === "Eko") {
-        throw new MyException("Ups my exceptions happens");
-    } else {
-        return "OK";
-    }
-};
+hello()

@@ -1,0 +1,77 @@
+{
+    "date": "Fri Apr 26 2024 12:46:24 GMT+0700 (Western Indonesia Time)",
+    "error": {},
+    "exception": true,
+    "level": "error",
+    "message": "uncaughtException: hello is not defined\nReferenceError: hello is not defined\n    at file:///d:/KULIAH/coding/progammerZN/NodeJs/Nodejs-Logging/src/exception.js:13:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)\n    at async loadESM (node:internal/process/esm_loader:34:7)\n    at async handleMainPromise (node:internal/modules/run_main:113:12)",
+    "os": {
+        "loadavg": [
+            0,
+            0,
+            0
+        ],
+        "uptime": 124810.64
+    },
+    "process": {
+        "argv": [
+            "C:\\NodeJs\\node.exe",
+            "d:\\KULIAH\\coding\\progammerZN\\NodeJs\\Nodejs-Logging\\src\\exception.js"
+        ],
+        "cwd": "d:\\KULIAH\\coding\\progammerZN\\NodeJs\\Nodejs-Logging",
+        "execPath": "C:\\NodeJs\\node.exe",
+        "gid": null,
+        "memoryUsage": {
+            "arrayBuffers": 10527,
+            "external": 1867177,
+            "heapTotal": 10129408,
+            "heapUsed": 6072544,
+            "rss": 36421632
+        },
+        "pid": 7836,
+        "uid": null,
+        "version": "v20.10.0"
+    },
+    "stack": "ReferenceError: hello is not defined\n    at file:///d:/KULIAH/coding/progammerZN/NodeJs/Nodejs-Logging/src/exception.js:13:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)\n    at async loadESM (node:internal/process/esm_loader:34:7)\n    at async handleMainPromise (node:internal/modules/run_main:113:12)",
+    "trace": [
+        {
+            "column": 1,
+            "file": "file:///d:/KULIAH/coding/progammerZN/NodeJs/Nodejs-Logging/src/exception.js",
+            "function": null,
+            "line": 13,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 25,
+            "file": "node:internal/modules/esm/module_job",
+            "function": "ModuleJob.run",
+            "line": 218,
+            "method": "run",
+            "native": false
+        },
+        {
+            "column": 24,
+            "file": "node:internal/modules/esm/loader",
+            "function": "async ModuleLoader.import",
+            "line": 329,
+            "method": "import",
+            "native": false
+        },
+        {
+            "column": 7,
+            "file": "node:internal/process/esm_loader",
+            "function": "async loadESM",
+            "line": 34,
+            "method": null,
+            "native": false
+        },
+        {
+            "column": 12,
+            "file": "node:internal/modules/run_main",
+            "function": "async handleMainPromise",
+            "line": 113,
+            "method": null,
+            "native": false
+        }
+    ]
+}
